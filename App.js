@@ -9,6 +9,10 @@ export default function App() {
   let vexibir=true;
   return (
     <View style={estilo.conteiner}>
+      <Button
+      title="Mensagem"
+      onPress={()=>Alert.alert('OLÁ')}
+      />
       <Image
           source={require('./assets/download.png')}
           style={estilos.logo}
