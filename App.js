@@ -4,6 +4,10 @@ import { StyleSheet, Text, View, Image,} from 'react-native';
 import Caixas from './Componentes/caixas'
 import estilo from './estilos/estilo.js';
 
+const msg=()=>{
+  Alert.alert('OLÁ')
+}
+
 
 export default function App() {
   let vexibir=true;
@@ -11,7 +15,7 @@ export default function App() {
     <View style={estilo.conteiner}>
       <Button
       title="Mensagem"
-      onPress={()=>Alert.alert('OLÁ')}
+      onPress={msg}
       />
       <Image
           source={require('./assets/download.png')}
