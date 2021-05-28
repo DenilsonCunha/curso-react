@@ -1,28 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Image,} from 'react-native';
-import Caixas from './Componentes/caixas'
 import estilo from './estilos/estilo.js';
-
-const msg=()=>{
-  Alert.alert('OLÁ')
-}
 
 
 export default function App() {
-  let vexibir=true;
   return (
     <View style={estilo.conteiner}>
-      <Button
-      title="Mensagem"
-      onPress={msg}
-      />
-      <Image
-          source={require('./assets/download.png')}
-          style={estilos.logo}
-      />
-      <Caixas exibir={vexibir}/>
-      {vexibir?<Text>Você está aprendendo react native</Text>:<Text>----</Text>}
+      <Text>Nova fase do Curso</Text>
     </View>
   );
 };
