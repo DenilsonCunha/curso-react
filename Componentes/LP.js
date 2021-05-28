@@ -18,7 +18,11 @@ const produtoss=[
 export default function(){
     return(
         <View>
-
+            <FlatList
+               data={produtos}
+               keyExtractor={item=>item.id}
+               
+            />
         </View>
     )
 }
