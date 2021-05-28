@@ -1,8 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
+
 import React from 'react';
 import { StyleSheet, Text, View, Image,} from 'react-native';
 import estilo from './estilos/estilo.js';
-
+import LP from './Componentes/LP'
 
 export default function App() {
   return (
