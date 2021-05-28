@@ -13,7 +13,7 @@ const produtoss=[
     {
       id: '003',
       desc: ['Monitor', '430.00']
-    }
+    },
 ]
 export default function(){
     return(
