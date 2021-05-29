@@ -26,3 +26,16 @@ export default function(){
         </View>
     )
 }
+
+const estilos= StyleSheet.create({
+    item: {
+        backgroundColor:'#008',
+        padding:15,
+        marginVertical:8,
+        marginHorizontal:16,
+    },
+    prod: {
+        fontSize: 15,
+        color: '#fff'
+    },
+})
