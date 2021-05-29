@@ -9,7 +9,7 @@ export default function App() {
     <View style={estilo.conteiner}>
       <ImageBackground 
        source={require('./assets/download.png')}
-       
+       style={estilos.imagemfundo}
       >
       <Text>Nova fase do Curso</Text>
       </ImageBackground>
