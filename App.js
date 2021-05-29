@@ -9,6 +9,7 @@ export default function App() {
     <View style={estilo.conteiner}>
       <ImageBackground 
        source={require('./assets/download.png')}
+       
       >
       <Text>Nova fase do Curso</Text>
       </ImageBackground>
@@ -20,5 +21,9 @@ const estilos = StyleSheet.create({
   logo: {
     width: 250,
     resizeMode:'contain'
+  },
+  imagemfundo:{
+    flex: 1,
+    resizeMode: 'cover',
   }
 })
