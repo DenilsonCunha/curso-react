@@ -16,13 +16,9 @@ export default function App() {
       />
       {ligado?
       <View>
-      <ImageBackground 
-       source={require('./assets/download.png')}
-       style={estilos.imagemfundo}
-      >
       <Text>Nova fase do Curso</Text>
+      <CarroC nome='Golf'/>
       <LP/>
-      </ImageBackground>
     </View>
     :
     <Text>* * *</Text>
