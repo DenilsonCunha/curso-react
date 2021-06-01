@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground,} from 'react-native';
+import { StyleSheet, Text, View, Image, ImageBackground, Button,} from 'react-native';
 import estilo from './estilos/estilo.js';
 import LP from './Componentes/LP'
 
@@ -8,8 +8,11 @@ export default function App() {
 
   const [ligado,setLigado]=useState(true)
   return (
-    
+
     <View style={estilo.conteiner}>
+      <Button
+      title={ligado?'Desligar':'Ligar'}
+      />
       {ligado?
       <View>
       <ImageBackground 
