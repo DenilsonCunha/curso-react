@@ -1,10 +1,11 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View, Image, ImageBackground,} from 'react-native';
 import estilo from './estilos/estilo.js';
 import LP from './Componentes/LP'
 
 export default function App() {
+  const [ligado,setLigado]=useState()
   return (
     <View style={estilo.conteiner}>
       <ImageBackground 
