@@ -12,6 +12,7 @@ export default function App() {
     <View style={estilo.conteiner}>
       <Button
       title={ligado?'Desligar':'Ligar'}
+      onPress={()=>setLigado(!ligado)}
       />
       {ligado?
       <View>
