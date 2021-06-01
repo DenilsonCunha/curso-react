@@ -12,6 +12,7 @@ export default function App() {
        style={estilos.imagemfundo}
       >
       <Text>Nova fase do Curso</Text>
+      <LP/>
       </ImageBackground>
     </View>
   );
