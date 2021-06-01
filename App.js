@@ -5,8 +5,10 @@ import estilo from './estilos/estilo.js';
 import LP from './Componentes/LP'
 
 export default function App() {
+
   const [ligado,setLigado]=useState(true)
   return (
+    
     <View style={estilo.conteiner}>
       {ligado?
       <View>
