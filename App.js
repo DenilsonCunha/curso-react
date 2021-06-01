@@ -8,6 +8,8 @@ export default function App() {
   const [ligado,setLigado]=useState()
   return (
     <View style={estilo.conteiner}>
+      {ligado?
+      <View>
       <ImageBackground 
        source={require('./assets/download.png')}
        style={estilos.imagemfundo}
@@ -16,6 +18,10 @@ export default function App() {
       <LP/>
       </ImageBackground>
     </View>
+    :
+    <Text>* * *</Text>
+      }
+      </View>
   );
 };
 
