@@ -10,7 +10,10 @@ export default class Carro extends Component {
             <View>
                 <Text>Carro:{this.props.nome} - Ligado:{this.state.ligado?'Sim' : 'Não'}</Text>
                 <Button
-                title={this.state.ligado}
+                title={this.state.ligado? 'Desligar' : 'Ligar'}
+                onPress={
+                    ()=>{this.setState({ligado:!this.state.ligado})}
+                }
                 />
             </View>
         )
