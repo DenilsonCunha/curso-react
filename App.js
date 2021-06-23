@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, Button,} from 'react-native';
+import { StyleSheet, Text, View, Button,} from 'react-native';
 import estilo from './estilos/estilo.js';
 import LP from './Componentes/LP'
 
@@ -16,7 +16,7 @@ export default function App() {
       />
       {ligado?
       <View>
-      <Text>Nova fase do Curso</Text>
+      <Text>Nova Fase do Curso</Text>
       <CarroC nome='Golf'/>
       <LP/>
     </View>
